@@ -12,7 +12,7 @@ export default function BottomTabs() {
       aria-label="Options"
       selectedKey={pathname.split("/")[1]}
       radius="full"
-      className="absolute w-full bottom-0 -translate-y-5"
+      className="fixed w-full bottom-0 -translate-y-10"
       classNames={{
         cursor: "bg-grey",
         tabList: "mx-auto",
